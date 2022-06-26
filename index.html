@@ -1,63 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Docx</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <header>
-                GTNH Docs
-            </header>
-            <a href="intro">Introduction</a>
-            <a href="starting_the_game">Starting the game</a>
-            <a href="transportation">Transportation</a>
-            <a href="exploration">Exploration</a>
-            <a href="base_building">Base Building</a>
-            <a href="misc">Miscellaneous</a>
-        </nav>
+      <nav>
+        <header>GTNH Docs</header>
+        <a href="#intro">Introduction</a>
+        <a href="#starting_the_game">Starting the game</a>
+        <a href="#transportation">Transportation</a>
+        <a href="#exploration">Exploration</a>
+        <a href="#base_building">Base Building</a>
+        <a href="#misc">Miscellaneous</a>
+      </nav>
     </header>
     <main id="main-doc">
-        <section id="intro" class="main-section">
-            <header>
-                Introduction
-            </header>
-            <p></p>
-        </section>
-        <section id="starting_the_game" class="main-section">
-            <header>
-                Starting the game
-            </header>
-            <p></p>
-        </section>
-        <section id="transportation" class="main-section">
-            <header>
-                Transportation
-            </header>
-            <p></p>
-        </section>
-        <section id="exploration" class="main-section">
-            <header>
-                Exploration
-            </header>
-            <p></p>
-        </section>
-        <section id="base_building" class="main-section">
-            <header>
-                Base Building
-            </header>
-            <p></p>
-        </section>
-        <section id="misc" class="main-section">
-            <header>
-                Miscellaneous 
-            </header>
-            <p></p>
-        </section>
+      <section id="intro" class="main-section">
+        <header>Introduction</header>
+        <h3>Welcome</h3>
+        <p>
+          So you heard about this "really hard" modpack that takes Gregtech to
+          the Nth degree and want to join in on the fun? Well first let's sit
+          down and talk about what GTNH is and isn't, and who this modpack
+          targets.
+        </p>
+        <h3>Philosophy of this modpack</h3>
+        <p>
+          GTNH is about taking the usual modball of magic and tech mods and
+          making all the recipes Greg-ified. This means there's really nothing
+          easy any more. All recipes are gated and modified - even vanilla ones.
+          Even a door will need advanced tools you won't get until the Steam era
+          at least. That means lots of hard work.
+        </p>
+        <p>
+          It also means a major sense of accomplishment when you open that gate
+          to the next stage. Getting ingredients to make your first decent food.
+          Making your Electric Blast Furnace. Your first Thaumcraft wand.
+          Launching your first rocket. Building a full scale chemical refinery.
+          Instead of simply being a minor event in a game, each of these becomes
+          moments of joy that you have now reached the next level.
+        </p>
+        <h3>Target audience</h3>
+        <p>
+          As stated above, this modpack is for people who enjoy hard challenges,
+          and are willing and able to commit serious amounts of time to them. At
+          the beginning, this may mean hours of searching for the right ores.
+          Later on you'll spend time building and rebuilding your technology
+          infrastructure to handle the latest resource demand. By the end,
+          you'll practically have degrees in Gregtech chemical and electrical
+          engineering - even a mage needs a technological base to supply
+          resources!
+        </p>
+        <p>
+          By its nature, this pack works best on servers, where players can work
+          together to search for resources and share information. Playing SP is
+          inherently more difficult since every orevein must be found solely by
+          you. You are welcome to come to the Discord and commiserate with all
+          the other players who have spent hours searching for that one
+          redstone/lapis/mica/nickel vein.
+        </p>
+      </section>
+      <section id="starting_the_game" class="main-section">
+        <header>Starting the game</header>
+        <p>
+          Because of the amount of mods included, starting GTNH can take much
+          longer than other modpacks. On lower end PCs, 30 minute start times
+          are normal. On even high end PCs, expect 5 minute start times. If
+          Minecraft looks like it has locked up, wait a few more minutes. Low
+          End PCs has tips and configuration suggestions to help with playing on
+          potato-PCs.
+        </p>
+        <p>
+          Also, default Java parameters usually don't work well, so its best to
+          optimize your memory setup and other configuration options.
+        </p>
+        <p>
+          If you have problems installing the modpack, have a look at Installing
+          and Migrating.
+        </p>
+        <h3>First Day</h3>
+        <p>
+          Fair warning, nights in GTNH are *dark* (gamma correction is disabled,
+          on purpose). And you won't get torches until well into the game. And
+          there are terrifying Infernal mobs that can do nasty things to you.
+          Expect to wall yourself in a hole in the ground during the night until
+          you get your first bed. Torches will be in short supply until your
+          first coke oven. (Tip. to have only a tiny bit of orientation in your
+          absolute dark dirt shack, press f7 to know where the floor is). If
+          you're lucky and find a coal vein, you can smelt the ore to make coal
+          for torches. There is also a guide on the Questing Mechanics.
+        </p>
+        <h3>Starting Location</h3>
+        <p>
+          The most important decision in the game is choosing where to start. If
+          you're a beginner, look for these important factors when choosing a
+          new place to start.
+        </p>
+        <ul>
+          <li>
+            Near water: With no infinite water, until you get a Railcraft Water
+            Tank, you will be making frequent trips to fetch water. Make sure
+            the water is large enough, at least 60 blocks. Being near a river is
+            good for setting up kinetic water generators later, but not
+            necessary.
+          </li>
+          <li>
+            Near sand: You will need sand for many of the early multiblock
+            recipes, and for glass. Later you can automate creating it from
+            cobblestone.
+          </li>
+          <li>
+            Near exposed minerals: This is difficult in GTNH since ores spawn in
+            veins. Sometimes you might get lucky and find a vein on the surface,
+            but it's pretty unlikely. Always mark any you find.
+          </li>
+          <li>Near a lava pool: Handy for refilling your smeltery.</li>
+          <li>
+            Villages: A great place to setup a base. Villages however should be
+            avoided until you have a bed, otherwise the villagers will be
+            slaughtered while you hole up at night. Steal a door - you won't get
+            one until you smelt iron. Walled villages are especially good if you
+            can light them up inside the walls.
+          </li>
+          <li>
+            Roguelike Dungeons: The large brick buildings on the surface, with a
+            bed and furnace, perfect for starting a base. The stairs down can be
+            blocked off to prevent monsters from coming up. Also, the bricks can
+            be cannibalized later for multiblock structures. You can cheese the
+            dungeon by going down with only torches and lighting it all up
+            before returning for loot.
+          </li>
+          <li>
+            Wood: No duh! You will probably need more than 7 stacks for the
+            first 3 tiers (mostly for charcoal, paper and chests). Some great
+            biomes to look for are the Jungle biome, any type of forest (the
+            dense or ones with big trees are especially great), and most of all,
+            the sacred spring, Wich has massive trees but is a rather rare
+            biome.
+          </li>
+          <li>
+            Wet and mid-temperature biomes (NOT desert or anything snowy): This
+            will help greatly with gathering water in the first couple ages. The
+            railcraft water tank auto-fills with water over time, and the speed
+            of this is heavily affected by the biome. Swampy is best for this
+            reason and a few others (better for IC2 crops, clay sources, ect.).
+          </li>
+        </ul>
+        <p>Look for a location relatively flat, near sand, with good access to a body of water. Minerals will have to be searched for no matter what, and with a relatively flat location it makes it easier to get around. If possible, be relatively near an oil spout - ~128 blocks. If you are closer, cover the spout with dirt/cobble roof. Lightning or infernal mobs can set it on fire.</p>
+      </section>
+      <section id="transportation" class="main-section">
+        <header>Transportation</header>
+        <p></p>
+      </section>
+      <section id="exploration" class="main-section">
+        <header>Exploration</header>
+        <p></p>
+      </section>
+      <section id="base_building" class="main-section">
+        <header>Base Building</header>
+        <p></p>
+      </section>
+      <section id="misc" class="main-section">
+        <header>Miscellaneous</header>
+        <p></p>
+      </section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
